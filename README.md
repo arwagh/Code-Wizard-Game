@@ -25,8 +25,6 @@ This project was developed by:
 4. Nada Rambu.
 5. Nood Alaskah.
 
-Under Ms.Bushra Alg0tamil and Ms.Randah Alharbi supervision.
+Under Ms.Bushra Algotamil and Ms.Randah Alharbi supervision.
 
 As requirement for Advanced Programming course.
-
-
