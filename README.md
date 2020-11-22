@@ -11,7 +11,7 @@ These are the requirements to run this game:
 ## Instructions
 In order to run this project correctly, please follow these instructions:
 1. Make sure all requirements are correctly installed in your device.
-2. Download the project from "Code > Download" option.
+2. Download the project from "Code > Download ZIP" option.
 3. Make a new schema in MySQL that is called "app".
 4. Download the database that is used in this project from here: https://cutt.ly/zhyhlzR
 5. Import the downloaded database into "app" schema.
