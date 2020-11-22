@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="newPane" fx:id="newPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="939.0" style="-fx-background-color: #7ed9f2;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.StartPlayingController">
+   <children>
+      <HBox fx:id="cmdsPane" layoutX="100.0" layoutY="109.0" prefHeight="413.0" prefWidth="725.0" />
+      <ImageView fitHeight="30.0" fitWidth="78.0" layoutX="13.0" layoutY="7.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exit3.png" />
+         </image>
+      </ImageView>
+      <ImageView id="backArrow" fx:id="backArrow" fitHeight="54.0" fitWidth="66.0" layoutX="876.0" layoutY="14.0" onMouseClicked="#stages" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../images/backArrow4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="questionMark" fitHeight="83.0" fitWidth="64.0" layoutX="845.0" layoutY="205.0" onMouseClicked="#toQuestion" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/information%20(4).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

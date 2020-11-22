@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="stagePane" fx:id="stagePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="939.0" style="-fx-background-color: #7ed9f2;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.StageController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="319.0" layoutY="24.0" prefHeight="54.0" prefWidth="302.0" text="المراحل" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="LHLamarPro-Regular" size="40.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Label>
+      <ImageView fitHeight="208.0" fitWidth="176.0" layoutX="379.0" pickOnBounds="true" preserveRatio="true" rotate="-115.8">
+         <image>
+            <Image url="@../images/stick2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="78.0" layoutX="14.0" layoutY="9.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exit3.png" />
+         </image>
+      </ImageView>
+      <ImageView id="backArrow" fx:id="backArrow" fitHeight="54.0" fitWidth="66.0" layoutX="872.0" layoutY="12.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../images/backArrow4.png" />
+         </image>
+      </ImageView>
+      <ImageView id="stage1Bt" fx:id="stage1Bt" fitHeight="249.0" fitWidth="243.0" layoutX="39.0" layoutY="116.0" onMouseClicked="#startPlaying" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView id="stage2Bt" fx:id="stage2Bt" fitHeight="249.0" fitWidth="243.0" layoutX="234.0" layoutY="122.0" onMouseClicked="#startPlayingStage2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView id="stage3Bt" fx:id="stage3Bt" fitHeight="249.0" fitWidth="243.0" layoutX="430.0" layoutY="122.0" onMouseClicked="#startPlaying3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView id="stage4Bt" fx:id="stage4Bt" fitHeight="249.0" fitWidth="243.0" layoutX="630.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stage5Bt" fitHeight="249.0" fitWidth="243.0" layoutX="332.0" layoutY="307.0" onMouseClicked="#startPlaying" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="stage1Lb" layoutX="162.0" layoutY="188.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="stage2Lb" layoutX="354.0" layoutY="193.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="stage3Lb" layoutX="552.0" layoutY="192.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="stage4Lb" layoutX="747.0" layoutY="192.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="stage5Lb" layoutX="449.0" layoutY="378.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="lock5" fitHeight="54.0" fitWidth="54.0" layoutX="467.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lock%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lock4" fitHeight="54.0" fitWidth="54.0" layoutX="766.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lock%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lock3" fitHeight="54.0" fitWidth="54.0" layoutX="564.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lock%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lock2" fitHeight="54.0" fitWidth="54.0" layoutX="366.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lock%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

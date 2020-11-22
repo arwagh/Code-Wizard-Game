@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="winningPane" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: #7ed9f2;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.WinningWindowController">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#ffffff75" height="271.0" layoutX="123.0" layoutY="29.0" stroke="#b5b5b583" strokeLineCap="ROUND" strokeType="INSIDE" width="356.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="228.0" layoutY="192.0" prefHeight="42.0" prefWidth="144.0" text="أحسنت!" textAlignment="CENTER" textFill="#ff7896">
+         <font>
+            <Font name="LHLamarPro-Regular" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="122.0" fitWidth="127.0" layoutX="147.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="123.0" layoutX="311.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="213.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/stagePic.png" />
+         </image>
+      </ImageView>
+      <Label contentDisplay="CENTER" layoutX="289.0" layoutY="248.0" prefHeight="35.0" prefWidth="109.0" text="نقاطك الحالية:" textAlignment="CENTER" textFill="#9a9999">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="playerScoreLb" contentDisplay="RIGHT" layoutX="217.0" layoutY="248.0" prefHeight="36.0" prefWidth="92.0" text="0.0" textAlignment="RIGHT" textFill="#ddcf06">
+         <font>
+            <Font name="Monadi" size="29.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="472.0" layoutY="305.0" prefHeight="92.0" prefWidth="109.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="14.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/glitter3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="208.0" fitWidth="224.0" layoutX="185.0" layoutY="-15.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/glitter3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="92.0" layoutX="254.0" layoutY="73.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/glitter3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="208.0" layoutX="-6.0" layoutY="29.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/glitter3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="133.0" layoutY="71.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/glitter3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="160.0" fitWidth="159.0" layoutX="285.0" layoutY="56.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/glitter3.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="rootpane3" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="939.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.HowToPlayController">
+  <children>
+      <AnchorPane id="innerPane2" layoutX="175.0" layoutY="23.0" prefHeight="578.0" prefWidth="690.0" style="-fx-background-radius: 0.75cm;" stylesheets="@style.css">
+         <children>
+            <Label fx:id="errorDB" layoutX="91.0" layoutY="385.0" textFill="#ff0101">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Text fill="#ff7896" layoutX="57.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="أهلاً بك يا صديقي المبرمج في عالمنا ، ساعد لانا في الحصول على نجومها السحرية، لكي تنجح يجب عليك أن تتبع الخطوات التالية  " textAlignment="RIGHT" wrappingWidth="577.0">
+               <font>
+                  <Font name="☞Tanseek Modern Pro Arabic Bold" size="32.0" />
+               </font></Text>
+            <Text fill="#e64072" layoutX="57.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="كيف ألعب؟" textAlignment="RIGHT" wrappingWidth="577.0">
+               <font>
+                  <Font name="LHLamarPro-Regular" size="45.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="216.0" fitWidth="374.0" layoutX="265.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+            <AnchorPane layoutX="12.0" layoutY="192.0" prefHeight="370.0" prefWidth="459.0" style="-fx-background-radius: 1cm; -fx-border-radius: 1cm; -fx-background-color: white;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fx:id="labelFile" fill="#28255a" layoutX="32.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="❶ توجد العديد من الكلمات السحرية في كل مرحلة ،عليك ان تختار إحدى هذه الكلمات التي ستوصل لانا  إلى النجمة" textAlignment="RIGHT" wrappingWidth="498.0000000000001">
+                     <font>
+                        <Font name="LHLamarPro-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="48.0" fitWidth="52.0" layoutX="565.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/star.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="labelFile1" fill="#28255a" layoutX="32.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="❷ اسحب الكلمات السحرية إلى الجهة المقابله و حينها ستتحرك لانا كما طلبت منها" textAlignment="RIGHT" wrappingWidth="498.0000000000001">
+                     <font>
+                        <Font name="LHLamarPro-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="94.0" fitWidth="86.0" layoutX="551.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/lana_walk.gif" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="labelFile2" fill="#28255a" layoutX="31.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="❸ بعد انتهائك من الحل اضغط على زر (تم) لتكتشف ما إذا كان حلك صحيح أم خاطئ" textAlignment="RIGHT" wrappingWidth="498.0000000000001">
+                     <font>
+                        <Font name="LHLamarPro-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="544.0" layoutY="163.0" prefHeight="36.0" prefWidth="102.0" style="-fx-background-color: #e64072; -fx-background-radius: 1cm;" text="تم" textFill="WHITE">
+                     <font>
+                        <Font name="☞Tanseek Modern Pro Arabic Bold" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <Text fx:id="labelFile11" fill="#28255a" layoutX="31.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="❹ إذا كان حلك صحيح فستحصل على لقب من القاب المبرمجين ويُسمح لك بالانتقال إلى المرحلة التالية" textAlignment="RIGHT" wrappingWidth="498.0000000000001">
+                     <font>
+                        <Font name="LHLamarPro-Regular" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="48.0" fitWidth="113.0" layoutX="541.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/source.gif" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="labelFile111" fill="#87bcdb" layoutX="84.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="نتمنى لك حظًا موفقًا يا صديقي المبرمج!!!" textAlignment="RIGHT" wrappingWidth="504.6666717529298">
+                     <font>
+                        <Font name="LHLamarPro-Regular" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <ImageView id="backArrow" fx:id="backArrow" fitHeight="54.0" fitWidth="66.0" layoutX="868.0" layoutY="14.0" onMouseClicked="#toMainMenuArrow" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../images/backArrow4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="263.0" fitWidth="266.0" layoutX="-1.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/f1_1.png" />
+         </image>
+      </ImageView>
+  </children>
+</AnchorPane>

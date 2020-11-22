@@ -1,0 +1,50 @@
+#rootpane, #gamesPane, #stagePane, #newPane {
+     -fx-background-image: url("back.png");
+}
+
+#innerPane{
+    -fx-background-color: rgba(255,255,255, 0.7);
+}
+
+#rootpane2, #winningPane, #losingPane, #questionPane {
+     -fx-background-image: url("back2.png");
+}
+
+#rootpane3 {
+     -fx-background-image: url("back3.png");
+}
+
+#rootpane4 {
+     -fx-background-image: url("back4.png");
+}
+
+#innerPane2{
+    -fx-background-color: rgba(255,255,255, 0.5);
+}
+
+#progressBar >  .bar {
+    -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        #b6deea; /* this line is the background color of the bar */
+}
+
+
+#backArrow:hover, #stage1Bt:hover, #stage2Bt:hover, #stage3Bt:hover,
+#stage4Bt:hover, #stage5Bt:hover, #questionMark:hover, #settings:hover{
+    -fx-scale-x: 1.3;
+    -fx-scale-y: 1.3;
+    -fx-scale-z: 1.3;
+}
+
+#game1:hover, #game2:hover {
+    -fx-scale-x: 1.08;
+    -fx-scale-y: 1.08;
+    -fx-scale-z: 1.08;
+}
+
+#storeData:hover, #PrintOnScreen:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}

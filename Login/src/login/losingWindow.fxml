@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="losingPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LosingWindowController">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#ffffff75" height="271.0" layoutX="123.0" layoutY="38.0" stroke="#b5b5b583" strokeLineCap="ROUND" strokeType="INSIDE" width="356.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="90.0" prefHeight="45.0" prefWidth="208.0" text="لم تنجح :(" textAlignment="CENTER" textFill="#ff7896">
+         <font>
+            <Font name="LHLamarPro-Regular" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="169.0" layoutY="116.0" prefHeight="127.0" prefWidth="264.0" text="للأسف، لم تصل لانا إلى نجومها السحرية!&#10;لكن لا بأس، بإمكانك المحاولة مجددًا" textAlignment="CENTER" textFill="#9a9999">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="277.0" layoutY="228.0" prefHeight="35.0" prefWidth="109.0" text="نقاطك الحالية:" textAlignment="CENTER" textFill="#9a9999">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="playerScoreLb" contentDisplay="CENTER" layoutX="194.0" layoutY="227.0" prefHeight="36.0" prefWidth="72.0" text="0.0" textAlignment="CENTER" textFill="#ddcf06">
+         <font>
+            <Font name="Monadi" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

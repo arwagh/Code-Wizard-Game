@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="rootpane2" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="939.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.MyProfileController">
+  <children>
+      <ImageView fitHeight="30.0" fitWidth="29.0" layoutX="9.0" layoutY="9.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exit3.png" />
+         </image>
+      </ImageView>
+      <VBox id="innerPane" layoutX="283.0" layoutY="15.0" prefHeight="577.0" prefWidth="373.0" spacing="10.0" style="-fx-background-radius: 1cm;" stylesheets="@style.css">
+         <children>
+            <VBox alignment="CENTER" prefHeight="245.0" prefWidth="373.0">
+               <children>
+                <ImageView fitHeight="185.0" fitWidth="190.0" pickOnBounds="true" preserveRatio="false">
+                  <image>
+                    <Image url="@../images/f1.png" />
+                  </image>
+                </ImageView>
+                <Label fx:id="playerName" alignment="CENTER" prefHeight="29.0" prefWidth="187.0" text="player name" textFill="#ff7896">
+                  <font>
+                    <Font name="Impact" size="25.0" fx:id="x1" />
+                  </font>
+                </Label>
+                <Label fx:id="playerNickname" alignment="CENTER" prefHeight="30.0" prefWidth="114.0" text="&quot;المبرمجة الـ...........&quot;">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="299.0" prefWidth="360.0" spacing="10.0">
+               <children>
+                  <AnchorPane prefHeight="70.0" prefWidth="326.0" style="-fx-background-radius: 0.75cm; -fx-background-color: white; -fx-border-radius: 0.75cm;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <Label layoutX="197.0" layoutY="7.0" prefHeight="30.0" prefWidth="143.0" text="المستوى:           / 50 " textAlignment="RIGHT">
+                           <font>
+                              <Font name="☞Tanseek Modern Pro Arabic Medium" size="25.0" />
+                           </font>
+                        </Label>
+                        <JFXProgressBar id="progressBar" layoutX="16.0" layoutY="40.0" prefHeight="14.0" prefWidth="322.0" progress="0.38" stylesheets="@style.css" />
+                        <Label fx:id="playerLevel" alignment="CENTER" layoutX="234.0" layoutY="-1.0" prefHeight="44.0" prefWidth="29.0" text="10" textAlignment="CENTER" textFill="#87bcdb">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <HBox alignment="CENTER" prefHeight="223.0" prefWidth="334.0" spacing="10.0">
+                     <children>
+                        <AnchorPane prefHeight="213.0" prefWidth="158.0" style="-fx-background-radius: 1cm; -fx-background-color: white; -fx-border-radius: 1cm;">
+                           <children>
+                              <Label layoutX="42.0" layoutY="14.0" prefHeight="30.0" prefWidth="75.0" text="عدد النقاط" textAlignment="RIGHT">
+                                 <font>
+                                    <Font name="☞Tanseek Modern Pro Arabic Medium" size="25.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="97.0" fitWidth="101.0" layoutX="29.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" rotate="50.2">
+                                 <image>
+                                    <Image url="@../images/star.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="playerScore" alignment="CENTER" layoutX="45.0" layoutY="158.0" prefHeight="44.0" prefWidth="69.0" text="14" textFill="#87bcdb">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </AnchorPane>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <ImageView fx:id="backArrow" fitHeight="66.0" fitWidth="54.0" layoutX="876.0" layoutY="12.0" onMouseClicked="#toMainMenuArrow" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../images/backArrow4.png" />
+         </image>
+      </ImageView>
+  </children>
+</AnchorPane>

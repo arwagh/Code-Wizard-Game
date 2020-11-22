@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="stagePaneee" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="939.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.PrintStatementController">
+   <children>
+      <ImageView fitHeight="622.0" fitWidth="939.0" layoutY="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="@arwaback.png" />
+         </image></ImageView>
+      <ImageView fitHeight="30.0" fitWidth="78.0" layoutX="25.0" layoutY="14.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exit3.png" />
+         </image>
+      </ImageView>
+      <ImageView id="backArrow" fx:id="backArrow" fitHeight="54.0" fitWidth="66.0" layoutX="873.0" layoutY="12.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../images/backArrow4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="413.0" layoutY="70.0" prefHeight="85.0" prefWidth="512.0" text="يمكنك أن تطبع العديد من الجمل في الشاشة " textAlignment="RIGHT" textFill="#540962">
+         <font>
+            <Font name="LHLamarPro-Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="429.0" fitWidth="487.0" layoutX="-4.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cs3.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="questionnText" layoutX="454.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="RIGHT" wrappingWidth="421.24786376953125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ImageView id="QuestionImage" fx:id="QuestionImage" fitHeight="76.0" fitWidth="41.0" layoutX="876.0" layoutY="143.0" onMouseClicked="#QUestionMark" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/faq.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="657.0" layoutY="223.0" prefHeight="85.0" prefWidth="512.0" text="أكتب أوامر الطباعة هنا:" textFill="#540962">
+         <font>
+            <Font name="LHLamarPro-Regular" size="28.0" />
+         </font>
+      </Label>
+      <Text fx:id="ScreenCodeText" layoutX="39.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="399.025634765625">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="printTextArea" layoutX="523.0" layoutY="320.0" prefHeight="200.0" prefWidth="316.0">
+         <font>
+            <Font name="LHLamarPro-Regular" size="19.0" />
+         </font></TextArea>
+      <Label layoutX="845.0" layoutY="292.0" prefHeight="85.0" prefWidth="339.0" text="اطبع (" textFill="#d20244">
+         <font>
+            <Font name="LHLamarPro-Regular" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="457.0" prefHeight="85.0" prefWidth="339.0" text="(" textFill="#d20244">
+         <font>
+            <Font name="LHLamarPro-Regular" size="28.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="runButton" layoutX="638.0" layoutY="531.0" onAction="#runPrintStatement" prefHeight="44.0" prefWidth="86.0" style="-fx-background-color: #ff7896; -fx-border-radius: 5cm; -fx-background-radius: 5cm;" text="نفّذ" textFill="WHITE">
+         <font>
+            <Font name="☞Tanseek Modern Pro Arabic Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <ImageView id="QuestionImage" fx:id="QuestionImage2" fitHeight="76.0" fitWidth="41.0" layoutX="876.0" layoutY="144.0" onMouseClicked="#QUestionMark" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@faq2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
