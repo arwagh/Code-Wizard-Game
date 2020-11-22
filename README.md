@@ -1,6 +1,6 @@
 # Code-Wizard-Game
 ## About the Project
-This project is an Arabic game developed using JavaFX which aims to teach children basic concepts of programming by funny and helpful games.
+This project is an Arabic game developed using JavaFX which aims to teach children basic concepts of programming in a funny way.
 
 ## Dependencies
 These are the requirements to run this game:
