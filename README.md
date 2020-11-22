@@ -16,7 +16,7 @@ In order to run this project correctly, please follow these instructions:
 4. Download the database that is used in this project from here: https://cutt.ly/zhyhlzR
 5. Import the downloaded database into "app" schema.
 6. You may find hibernate.cfg file in the project, you can delete it and create a new one by making a new connection that connects between your project and "app" database, edit the information in this file with your own information and any other needed information (as you have known before).
-7. Open "Login.java" file and run it, it is the main file and by running it you can fully start the game.
+7. Open "Login.java" file and run it, it is the main file and by running it you are supposed to be able to fully start the game.
 
 ## Credits
 This project was developed by:
@@ -29,3 +29,5 @@ This project was developed by:
 Under Ms.Bushra Algotamil and Ms.Randah Alharbi supervision.
 
 As requirement for Advanced Programming course.
+
+Enjoy! hopefully this project will help you to make more creative projects :)
