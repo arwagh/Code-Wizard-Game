@@ -34,6 +34,6 @@ This project was developed by:
 
 Under the supervision of Ms.Bushra Algotamil and Ms.Randah Alharbi.
 
-As a requirement for Advanced Programming course in UQU.
+As a requirement for Advanced Programming course at UQU.
 
 Enjoy! hopefully this project will help you to make more creative projects :)
