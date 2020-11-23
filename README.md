@@ -7,6 +7,8 @@ These are the requirements to run this game:
 1. JDK.
 2. MySQL.
 3. Hibernate.
+4. Jfoenix library, it can be downloaded from here : https://jar-download.com/artifacts/com.jfoenix/jfoenix/8.0.8/source-code
+  After downloding it, add it under "Libraries" folder as shown in the figure:
 
 ## Instructions
 In order to run this project correctly, please follow these instructions:
