@@ -10,6 +10,7 @@ These are the requirements to run this game:
 4. Jfoenix library, it can be downloaded from here : https://jar-download.com/artifacts/com.jfoenix/jfoenix/8.0.8/source-code
   
   After downloding it, add it under "Libraries" folder as shown in the figure:
+  
   ![alt text](https://i.ibb.co/bgFMj1z/Capture10.png)
 
 
